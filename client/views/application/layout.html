@@ -1,0 +1,10 @@
+<template name="layout">
+	<div class="container">
+		{{> navbar}}
+		{{#if currentUser}}
+			<div id="main" class="row-fluid">
+				{{> yield}}
+			</div>
+		{{/ if}}
+	</div>
+</template>

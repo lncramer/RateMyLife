@@ -1,0 +1,13 @@
+<template name="activities">
+	<div class="input-group">
+		<select multiple id="activities-box" name="activities-box" type="hidden">
+			{{#each allActivities}}
+				<option>{{this.name}}</option>
+			{{/each}}
+		</select>
+		<span class="input-group-btn">
+			<button class="btn btn-default" id="add-activity-button" type="button" data-toggle="modal" data-target="#add-activity-modal">Add New Activity</button>
+		</span>
+	</div>
+	{{> addActivityModal}}
+</template>

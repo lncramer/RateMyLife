@@ -1,0 +1,12 @@
+<head>
+	<title>Rate My Life</title>
+</head>
+<body>
+	<h2>Are you ready to change your world?</h2>
+	<br/>
+	<div class="btn-group-vertical">
+		<button class="btn btn-primary">Add Day</button>
+		<br/>
+		<button class="btn btn-primary">View Results</button>
+	</div>
+</body>

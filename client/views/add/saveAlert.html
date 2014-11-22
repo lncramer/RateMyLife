@@ -1,0 +1,11 @@
+<template name="saveAlert">
+	<div id="save-success-alert" class="alert alert-success" role="alert" hidden="true">
+	  <button type="button" class="close" onClick="$('.alert').hide()"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+	  Day saved!
+	</div>
+
+	<div id="save-failed-alert" class="alert alert-danger" role="alert" hidden="true">
+	  <button type="button" class="close" onClick="$('.alert').hide()"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+	  <span id="save-failed-alert-message">A day with this date already exists.</span>
+	</div>
+</template>

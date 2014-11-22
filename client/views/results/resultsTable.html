@@ -1,0 +1,15 @@
+<template name="resultsTable">
+	<table class="table">
+			<thead>
+				<tr>
+					<th>Activity</th>
+					<th>Average Rating</th>
+				</tr>
+			</thead>
+			<tbody>
+			{{#each allActivities}}
+				{{> activityResult}}	
+			{{/each}}
+		</tbody>
+	</table>
+</template>

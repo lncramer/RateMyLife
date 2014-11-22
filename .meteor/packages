@@ -1,0 +1,17 @@
+# Meteor packages used by this project, one per line.
+#
+# 'meteor add' and 'meteor remove' will edit this file for you,
+# but you can also edit it by hand.
+
+standard-app-packages
+insecure
+tsega:bootstrap3-datetimepicker
+iron:router
+rajit:bootstrap3-datepicker
+natestrauser:select2
+mizzao:bootstrap-3
+underscore
+ian:accounts-ui-bootstrap-3
+accounts-password
+themeteorchef:jquery-validation
+

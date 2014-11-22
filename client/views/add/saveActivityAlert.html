@@ -1,0 +1,11 @@
+<template name="saveActivityAlert">
+	<div id="save-activity-success-alert" class="alert alert-success" role="alert" hidden="true">
+	  <button type="button" class="close" onClick="$('.alert').hide()"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+	  Activity saved!
+	</div>
+
+	<div id="save-activity-failed-alert" class="alert alert-danger" role="alert" hidden="true">
+	  <button type="button" class="close" onClick="$('.alert').hide()"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+	  <span id="save-activity-failed-alert-message">An activity with this name already exists.</span>
+	</div>
+</template>
