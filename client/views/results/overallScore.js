@@ -1,3 +1,13 @@
+Template.overallScore.rendered = function() {
+	// var options = {
+	// 	placeholder: "What did you do?",
+	// 	allowClear: true,
+	// 	width: "100%"
+	// }
+
+	$("#table-header").show();
+}
+
 Template.overallScore.helpers({
 	getOverallScore: function() {
 		var allDays = Days.find().fetch();
