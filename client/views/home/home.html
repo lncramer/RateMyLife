@@ -1,9 +1,14 @@
 <template name="home">
-	<div class="btn-group-vertical">
-		<a class="btn btn-primary btn-lg" href="{{pathFor 'addDay'}}">
-			<span class="glyphicon glyphicon-plus" style="float:left" aria-hidden="true"></span> Add Day</a>
-		<br/>
-		<a class="btn btn-primary btn-lg" href="{{pathFor 'viewResults'}}">
-			<span class="glyphicon glyphicon-book" style="float:left" aria-hidden="true"></span>Results</a>
+	<div class="home-header">
+		<h3>Welcome back <label class="current-user">{{currentUser.username}}</label>. Are you ready to change your life?</h3>
+	</div>
+	<div class="home-buttons">
+		<div class="btn-group-vertical">
+			<a class="btn btn-primary btn-lg" href="{{pathFor 'addDay'}}">
+				<span class="glyphicon glyphicon-plus" style="float:left" aria-hidden="true"></span> Add Day</a>
+			<br />
+			<a class="btn btn-primary btn-lg" href="{{pathFor 'viewResults'}}">
+				<span class="glyphicon glyphicon-book" style="float:left" aria-hidden="true"></span>Results</a>
+		</div>
 	</div>
 </template>

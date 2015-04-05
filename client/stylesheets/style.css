@@ -1,2 +1,37 @@
 /*#result-row {
 }*/
+
+body {
+	background-color: #a0b9ff;
+}
+
+.jumbotron {
+	background-color: #8480e5;
+}
+
+.home-header {
+	text-align: center;
+}
+
+.home-buttons {
+	text-align: center;
+}
+
+.current-user {
+	color: #15002D;
+}
+
+.home-buttons .btn {
+	position: inline;
+	top: 50%;
+	width: 582px;
+}
+
+.home-buttons .btn-group-vertical .btn {
+	background-color: #5c2b44;
+	/*margin-left: 240px;*/
+}
+
+.home-buttons .btn-group-vertical .btn:hover {
+	border: 3px solid black;
+}
